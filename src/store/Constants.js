@@ -1,5 +1,5 @@
 export const Products = [
-  {src: '../1.png', type:'newarrival', name: 'T-shirt with Tape Details', stars: 4.5, cost: 120, discount: 0},
+  {src: '../1.png', type:'newarrival', name: 'African Blue Boubou', stars: 4.5, cost: 120, discount: 0},
   {src: '../2.png', type:'newarrival', name: 'Skinny Fit Jeans', stars: 3.5, cost: 240, discount: 20},
   {src: '../3.png', type:'newarrival', name: 'Checkered Shirt', stars: 4.5, cost: 180, discount: 0},
   {src: '../4.png', type:'newarrival', name: 'Sleeve Striped T-shirt', stars: 4.5, cost: 130, discount: 30},
