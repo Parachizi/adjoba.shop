@@ -36,3 +36,8 @@ jobs:
         run: |
           aws s3 sync dist s3://adjoba.shop \
             --delete
+      - name: Invalidate CloudFront cache
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id E2JBBB7YLI4GVD \
+            --paths "/*"
