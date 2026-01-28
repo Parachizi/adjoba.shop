@@ -47,7 +47,7 @@ export default function Home({to = ''}) {
         <div className="nav:w-1/2 flex flex-col flex-grow">
           
             <h1 className="bolded text-3xl sm:text-6xl mb-10 max-w-[550px]">
-            <Reavel>FIND CLOTHES</Reavel> <Reavel>THAT MATCHES</Reavel> <Reavel>YOUR STYLE</Reavel>
+            <Reavel>FIND CLOTHES</Reavel> <Reavel>THAT MATCHES</Reavel> <Reavel>YOUR AFRICAN STYLE</Reavel>
             </h1>
           
           <Reavel>
@@ -63,10 +63,10 @@ export default function Home({to = ''}) {
           <div className="flex mb-10 flex-wrap justify-start items-center gap-10">
             <div className="flex-grow flex flex-col justify-center items-center">
               <Reavel>
-                <h1 className="font-bold text-3xl tracking-wide">200+</h1>
+                <h1 className="font-bold text-3xl tracking-wide">7+</h1>
               </Reavel>
               <Reavel>
-                <p>International Brands</p>
+                <p>African Brands</p>
               </Reavel>
             </div>
             <div className="flex-grow flex flex-col justify-center items-center">
@@ -74,12 +74,12 @@ export default function Home({to = ''}) {
                 <h1 className="font-bold text-3xl tracking-wide">2,000+</h1>
               </Reavel>
               <Reavel>
-                <p>High-Quality Products</p>
+                <p>High-Quality Ethinics Products</p>
               </Reavel>
             </div>
             <div className="flex-grow flex flex-col justify-center items-center">
               <Reavel>
-                <h1 className="font-bold text-3xl tracking-wide">30,000+</h1>
+                <h1 className="font-bold text-3xl tracking-wide">10,000+</h1>
               </Reavel>
               <Reavel>
                 <p>Happy Customers</p>

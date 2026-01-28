@@ -46,7 +46,7 @@ export default function Cart() {
       <div className="mainMargin flex-col-reverse lg:flex-row flex items-center">
         <div className="text-center flex flex-col items-center gap-5">
           <Reavel>
-            <h1 className="bolded text-4xl xsm:text-5xl">Thank You for Your Purchase!</h1>
+            <h1 className="bolded text-4xl xsm:text-5xl">Thank You for Your Purchase !</h1>
           </Reavel>
           <Reavel><p>Must add items on the card before you proceed to checkout</p></Reavel>
           <Reavel className="p-4"><Link className="btn w-fit" to='/Shop'>Go to Shop</Link></Reavel>
@@ -142,7 +142,7 @@ export default function Cart() {
                   <button className="btn text-center sm:flex-grow-0 flex-grow" type="submit">Apply</button>
                 </form>
                 {CorrectDiscount===false && <p className="font-bold mt-5 text-center text-red-600">Wrong promo code please try again!</p>}
-                {CorrectDiscount==='Yet' && <p className="font-bold mt-5 text-center">Use promo code Moemen for 20% discount</p>}
+                {CorrectDiscount==='Yet' && <p className="font-bold mt-5 text-center">Use promo code Agoh for 70% discount</p>}
                 {CorrectDiscount===true && <p className="font-bold mt-5 text-center text-green-600">Promo code applied successfully</p>}
               </div>
               <div className="flex mt-5 mb-5">
